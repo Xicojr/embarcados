@@ -11,7 +11,7 @@
 #define _XTAL_FREQ 4000000 
 
 void main(void) {
-    int  digito[4] = {63, 6, 91, 79};
+    int  digito[4] = {31, 6, 91, 79};
     int contador = 0;
     TRISA = 0;
     PORTA = 0;
